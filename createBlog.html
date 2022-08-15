@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Vlog</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script defer src="init-firebase.js"></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+   <a id="goback" href="blog.html"><h3>Go back to view the blogs</h3></a>
+   
+    <div id="typing-container">
+        <form>
+            <!-- @NOTE this input has an id #username -->
+            <div class="input-container">
+                <label id="labelPad">Name: </label>
+                <input
+                    type="text"
+                    id="name"
+                />
+            </div>
+            
+            <!-- @NOTE this input has an id #message -->
+            <div class="input-container">
+                <label id="labelPad">Title: </label>
+                <input
+                    type="text"
+                    id="title"
+                />
+            </div>
+            <div class ="input-container">
+                <label id="labelPad">Link: </label>
+                <input id="link" type="file"/>
+            </div>
+        </form>
+    </div>
+        <button id="send-btn">Send</button>
+        
+</body>
+</html>
