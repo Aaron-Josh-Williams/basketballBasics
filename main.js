@@ -101,10 +101,11 @@
      // create parent div
      let parentDiv = document.createElement('div');
      parentDiv.className = 'single_blog';
+     parentDiv.style.marginBottom ='50px';
  
      // Create username p
      let nameP = document.createElement('p');
-     // nameP.className = 'single-message-username';
+     nameP.className = 'info';
  
      nameP.innerHTML = 'Name: ' + nameTxt;
  
@@ -112,12 +113,22 @@
      parentDiv.append(nameP);
  
      let titleP = document.createElement('p');
+     titleP.className = 'info';
      titleP.innerHTML = 'Title: ' + titleTxt;
      parentDiv.append(titleP);
 
-     let linkP = document.createElement('p');
+     let linkP = document.createElement('a');
+     titleP.className = 'info';
+     linkP.href = linkTxt;
+     linkP.target = '_blank';
      linkP.innerHTML = 'Link: ' + linkTxt;
      parentDiv.append(linkP);
  
      return parentDiv;
  }
+let buttonRef = document.getElementById("submitButton");
+function onClick(event){
+    event.preventDefault();
+    let DataUser = document.getElementById("linkgiven");
+    userdata = DataUser.value
+}

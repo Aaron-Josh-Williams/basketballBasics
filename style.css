@@ -28,7 +28,7 @@ body {
     margin-bottom: 5%;
 }
 
-#name, #gender, #address, #email {
+#name, #title, #link{
     border: none;
     border-radius: 20px;
     outline: none;
@@ -62,7 +62,7 @@ body {
 #all_blogs{ 
     display: flex;
     flex-direction: column;
-    background-color: #444b57;
+    background-color: white;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 20%;
@@ -86,7 +86,7 @@ body {
     padding-bottom: 25px;
     background-color: rgb(125, 125, 233);
 }
-#title{
+#welcome{
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -95,4 +95,8 @@ body {
 .navpart{
     background-color: white;
     padding: 10px;
+}
+
+.info{
+    color: rgb(84, 5, 121);
 }
