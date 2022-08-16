@@ -123,7 +123,12 @@
      linkP.target = '_blank';
      linkP.innerHTML = 'Link: ' + linkTxt;
      parentDiv.append(linkP);
- 
+     let iframe = document.createElement('iframe')
+     videoid = linkTxt.split("v=")[1].substring(0, 11);
+     videourl = "https://www.youtube.com/embed/" + videoid;
+     console.log(videourl)
+     iframe.src = videourl
+     parentDiv.append(iframe)
      return parentDiv;
  }
 let buttonRef = document.getElementById("submitButton");
