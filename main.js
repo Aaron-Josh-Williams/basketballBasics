@@ -117,13 +117,14 @@
      titleP.innerHTML = 'Title: ' + titleTxt;
      parentDiv.append(titleP);
 
-     let linkP = document.createElement('a');
-     titleP.className = 'info';
-     linkP.href = linkTxt;
-     linkP.target = '_blank';
-     linkP.innerHTML = 'Link: ' + linkTxt;
-     parentDiv.append(linkP);
-     let iframe = document.createElement('iframe')
+     //let linkP = document.createElement('a');
+     //linkP.className = 'info';
+     //linkP.href = linkTxt;
+     //linkP.target = '_blank';
+     //linkP.innerHTML = 'Link: ' + linkTxt;
+     //parentDiv.append(linkP);
+     let iframe = document.createElement('iframe');
+     iframe.className = 'inputvid';
      videoid = linkTxt.split("v=")[1].substring(0, 11);
      videourl = "https://www.youtube.com/embed/" + videoid;
      console.log(videourl)
