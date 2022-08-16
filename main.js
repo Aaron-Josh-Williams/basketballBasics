@@ -125,6 +125,7 @@
      //parentDiv.append(linkP);
      let iframe = document.createElement('iframe');
      iframe.className = 'inputvid';
+     iframe.allowFullscreen;
      videoid = linkTxt.split("v=")[1].substring(0, 11);
      videourl = "https://www.youtube.com/embed/" + videoid;
      console.log(videourl)
