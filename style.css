@@ -1,5 +1,5 @@
 body {
-    background-color: #fcac28;
+    background-color: rgb(61, 61, 61);
     margin: 0%;
     padding: 0%;
     color: #EEEEEE;
@@ -58,6 +58,9 @@ body {
     text-align: center;
     color: rgb(147, 13, 236);
 }
+#explain{
+    text-align: center;
+}
 
 #all_blogs{ 
     display: flex;
@@ -90,7 +93,7 @@ body {
     justify-content: space-around;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: rgb(209, 33, 233);
+    background-color: rgb(240, 189, 22);
 }
 
 #welcome{
@@ -178,13 +181,17 @@ p{
 }
 
 #resourceTitle{
-    margin-top: 525px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
 }
 #references{
     display: flex;
     justify-content: space-around;
+}
+
+#references a{
+    color: rgb(147, 13, 236);
 }
 
 #videos iframe{
@@ -208,6 +215,25 @@ iframe{
 }
 
 #end{
+    display: flex;
+    justify-content: center;
+}
+
+#end a{
+    color: rgb(147, 13, 236);
+}
+
+#github{
+    display: flex;
+    justify-content:space-around;
+}
+
+#github a{
+    color: rgb(147, 13, 236);
+}
+
+#Githubintro{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
