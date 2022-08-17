@@ -65,14 +65,11 @@ body {
 #all_blogs{ 
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.438);
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
     border-radius: 20px;
 }
 
@@ -201,6 +198,11 @@ p{
 .inputvid{
     margin-top: 10px;
     margin-left: 300px;
+}
+
+#names p {
+    display:flex;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 iframe{
