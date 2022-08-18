@@ -137,7 +137,7 @@ a {
     color: rgb(84, 5, 121);  
 }
 
-p{
+#paragraph{
     margin: 50px;
     padding: 20px;
     border: 2px solid rgb(0, 0, 0);
@@ -200,9 +200,10 @@ p{
     margin-left: 300px;
 }
 
-#names p {
+#names {
     display:flex;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 208, 208, 0);
+    flex-direction: column;
 }
 
 iframe{
