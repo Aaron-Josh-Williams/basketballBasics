@@ -138,6 +138,10 @@ body {
     justify-content: center;
 }
 
+#secp{
+    margin-left: 50px;
+}
+
 .navpart{
     padding: 10px;
     font-size: 25px;
